@@ -5,9 +5,10 @@
 
 // This variant is used for header files of your own program
 #include "sample_header.h"
-# include "sub/sub_header.h"
+#include "sub/sub_header.h"
 
-int main() {
+int main()
+{
     int a = 100, b = 43;
 
     printf("sum of %d, %d is %d\n", a, b, sum(a, b));
