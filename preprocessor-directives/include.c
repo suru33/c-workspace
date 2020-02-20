@@ -1,8 +1,9 @@
-/*
-https://gcc.gnu.org/onlinedocs/gcc-7.5.0/cpp/Include-Syntax.html
-*/
+// https://gcc.gnu.org/onlinedocs/gcc-7.5.0/cpp/Include-Syntax.html
 
+// This variant is used for system header files.
 #include <stdio.h>
+
+// This variant is used for header files of your own program
 #include "sample_header.h"
 # include "sub/sub_header.h"
 
